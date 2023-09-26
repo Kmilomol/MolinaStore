@@ -1,0 +1,477 @@
+:root {
+    --fuenteHeading: 'Libre Baskerville', serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --background1: #f5f3f3;
+    --background2: #FF4B2B;
+    --negro: #00000;
+    --btnColor: #33C3F0;
+
+
+}
+
+html {
+    font-size: 62.5%;
+    /* 1 rem = 10px */
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteHeading);
+    background-color: var(--background1);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Globales **/
+.contenedor {
+    width: min(90%, 140rem);
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--negro);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--fuenteHeading);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 5.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+
+}
+li{
+    list-style: none;
+}
+
+/****HEADER****/
+
+.desktop {
+    background-color: var(--background1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+/***LOGO***/
+.header__logo {
+    font-weight: bold;
+    background: -webkit-linear-gradient(to right, red, orange);
+    background: linear-gradient(to right, red, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__logo h1 {
+    font-style: italic;
+}
+
+.header__login a {
+    display: block;
+    padding: 1.5rem 2rem;
+    margin: 1.2rem;
+}
+
+.header__login a:hover {
+    color: var(--background1);
+    background-color: var(--background2);
+    border-radius: 1.6rem;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {}
+
+.mobile {
+    display: none;
+}
+
+/***LOGIN****/
+.header__login {
+    display: flex;
+}
+
+/***HERO***/
+
+.hero {
+
+    background-image: url(../img/hero.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.contenido-hero {
+    padding-top: 5rem;
+    color: white;
+}
+
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contenido-hero form #buscador {
+    height: 5rem;
+    margin-bottom: 0;
+}
+
+.contenedor-main {
+    width: 40%;
+}
+
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem 1rem;
+    background-color: #fff;
+    border: 0.1rem solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 5rem;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.barra {
+    padding: 20px 0;
+    background: #741d51;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #741d51 0%, #e44e52 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #741d51 0%, #e44e52 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#741d51', endColorstr='#e44e52', GradientType=1);
+    /* IE6-9 */
+}
+
+.contenedor_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra p {
+    margin: 0;
+    color: white;
+}
+
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+
+.lista-cursos {
+    margin-bottom: 20px;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+    margin-bottom: 2rem;
+
+}
+
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+
+.info-card {
+    padding: 10px 20px;
+}
+
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.btn-primary {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--background1);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: var(--btnColor);
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.card__info--price {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card__info--price p {
+    display: block;
+}
+
+/***Footer***/
+
+
+footer .contacto {
+    padding: 60px 0;
+    
+}
+
+footer .contacto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    color: #3895ea;
+    text-align: center;
+}
+
+footer .contacto .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    margin-bottom: 15px;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+footer .contacto .formulario .btn2 {
+    margin: auto;
+    background: #3895ea;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    height: 100%;
+}
+
+footer .contacto .formulario .btn2:hover {
+    background: #387bea;
+}
+
+footer .redes-sociales {
+    background: #1e2b38;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales .contenedor a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    font-size: 30px;
+    padding: 15px 0;
+    display: block;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+footer .redes-sociales .contenedor .twitter:hover {
+    background: #55acee;
+}
+
+footer .redes-sociales .contenedor .facebook:hover {
+    background: #3b5998;
+}
+
+footer .redes-sociales .contenedor .youtube:hover {
+    background: #cd201f;
+}
+
+footer .redes-sociales .contenedor .github:hover {
+    background: #666666;
+}
+
+footer .redes-sociales .contenedor .instagram:hover {
+    background: #3f729b;
+}
+
+/* ----- ----- MEDIA QUERIES ----- ----- */
+
+@media screen and (max-width: 500px) {
+   
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+    }
+
+    footer .redes-sociales .contenedor a {
+        padding: 20px;
+    }
+}
+
+/*****Carrito***/
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.borrar-curso{
+    background-color: red;
+    color: var(--background1);
+    font-weight: bold;
+    
+}
+
+.producto{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 2rem
+    
+}
+
+.contenedorProduct{
+    margin-bottom: 5em;
+}
+
+.formulario__submit{
+    background-color: var(--background2) !important; 
+    color: var(--background1) !important;
+}

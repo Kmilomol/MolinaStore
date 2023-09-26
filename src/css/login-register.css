@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+:root{
+    --fuenteHeading: 'Libre Baskerville', serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --background1: #f5f3f3;
+    --background2:#FF4B2B;
+    --negro: #000000;
+    --btnColor: #33C3F0;
+
+
+}
+
+html {
+    font-size: 62.5%; /* 1 rem = 10px */    
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuenteHeading);
+    background-color: var(--background1);
+    font-size: 1.6rem;
+    line-height: 2;
+    height: 100vh;
+    
+}
+/** Globales **/
+.contenedor {
+    width: min(90%, 140rem);
+    margin: 0 auto;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--negro) ;
+}
+h1, h2, h3, h4 {
+    font-family: var(--fuenteHeading);
+    line-height: 1.2;
+}
+h1 {
+    font-size: 5.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);    
+    border: 1px solid var(--negro);
+    border-radius: 1.6rem;    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			    0 10px 10px rgba(0,0,0,0.22);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background1);
+    padding: 5rem;
+    text-align: center;
+    height: 100%;
+    border-radius: 1.6rem;  
+
+}
+
+.login input {
+	background-color: #eee;
+	border: none;
+	padding: 1.2rem 1.5rem;
+	margin: 0.8rem 0;
+	width: 100%;
+    border-radius: 1.2rem;
+}
+
+.social-container {
+	margin: 2rem 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0.5rem;
+	height: 4rem;
+	width: 4rem;
+}
+
+.login a {
+    margin:1.2rem 0 ;
+}
+
+.login h1 {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.regresar {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+  }
+  
+  .regresar i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+
+.button{
+    border-radius: 2rem;
+	border: 1px solid var(--background2);
+	background-color: var(--background2);
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 1.2rem 4.5rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    cursor: pointer;
+    
+}
+
+
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background2);
+    padding: 2rem 8rem;
+    color: var(--background1);
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    border-radius: 0 1.6rem 1.6rem 0 ;  
+}
+
+.register h1{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.btn-2{
+    background-color: transparent;
+	border-color: var(--background1);
+}
+
+.login-register{
+    display: flex;
+    justify-content: center;    
+    background-color: var(--background2);
+    
+}
+
+.register-count{
+    background-color: var(--background1);
+    color: var(--negro);
+    max-width: 100%;
+}
+
+.register-count input{
+    background-color: #eee;
+	border: none;
+	padding: 1.2rem 1.5rem;
+	margin: 0.8rem 0;
+	width: 100%;
+    border-radius: 1.2rem;
+}

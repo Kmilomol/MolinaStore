@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e1cb80d5df.js" crossorigin="anonymous"></script>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Molina Store</title>
+</head>
+
+<body>
+    <div>
+        <header class="header contenedor">
+            <div class="desktop">
+                <div class="header__logo">
+                    <a href="../../index.html"><h1>Molina Store</h1></a>
+                </div>
+                <div class="header__login">
+                    <a href="../pages/login.html">Ingresar</a>
+                    <a href="../pages/register.html">Registrarse</a>
+                </div>
+                <div class="header__car">
+                    <ul>
+                        <li class="submenu">
+                            <img src="../img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                </div>
+
+            </div>
+    </div>
+
+    <div class="mobile">
+        <div class="header__logo">
+            <h1>Molina Store</h1>
+        </div>
+        <div class="more">
+            <button>Más</button>
+        </div>
+        <div class="links">
+            <a href="#">Ingresar</a>
+            <a href="#">Registrarse</a>
+            <a href="#">Carrito</a>
+        </div>
+    </div>
+
+    </header>
+
+    <main class="contenedor contenedorProduct">
+        <h1>Sal Refinada REFISAL 1000 gr</h4>
+            <p>Disponible</h1>
+        
+        <div class="productoPosition">
+            <div class="producto">
+                <img src="https://exitocol.vtexassets.com/arquivos/ids/19740683-600-auto?v=638308627536600000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19740683-800-auto?v=638308627536600000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19740683-1200-auto?v=638308627536600000&width=1200&height=auto&aspect=true 1200w" alt="articulo" class="camisa__imagen">
+    
+    
+                <div class="producto__contenido">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue felis, sagittis placerat
+                        molestie ut, eleifend ac urna. Phasellus euismod dolor elementum, egestas ex vel, tempus velit. Sed
+                        fringilla tellus vel leo auctor lacinia.
+                    </p>
+    
+                    <form class="form">
+                        <select class="formulario__campo">
+                            <option disabled selected>Selecionar cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>                    
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+    
+                </div>
+            </div>
+        </div>
+       
+
+    </main>
+
+    
+<footer>
+    <section class="redes-sociales">
+        <div class="contenedor">
+            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a>
+            <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </section>
+</footer>
+
+
+</body>
