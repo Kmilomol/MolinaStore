@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
         crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
         rel="stylesheet">
@@ -19,13 +21,14 @@
     <link rel="stylesheet" href="../css/login-register.css">
     <title>Iniciar sesión</title>
 </head>
+
 <body>
-     <div class="main">
+    <div class="main">
         <main class="container">
             <section class="login login-register">
                 <h1>Bienvenido de nuevo!</h1>
                 <p>Para mantenerte en contacto con nosotros, inicia sesión con tus datos personales</p>
-                <a href="./login.html" class="button btn-2">Iniciar sesión</a>                
+                <a href="./login.html" class="button btn-2">Iniciar sesión</a>
             </section>
             <section class="register register-count">
                 <h1>Crea una cuenta</h1>
@@ -35,19 +38,25 @@
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <p>O usa tu email para registrarte</p>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre" > 
-                <input type="email" name="email" id="email" placeholder="Email" > 
-                <input type="password" name="password" id="password" placeholder="password"> 
-                
-                <button class="button">Registrarte</button>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="password" id="password" placeholder="password">
+
+                <button class="button" id="button">Registrarte</button>
                 <div class="regresar">
                     <i class="fas fa-arrow-left"></i> <a href="../../index.html">Regresar</a>
-                  </div>    
+                </div>
             </section>
 
         </main>
 
-        
-     </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../js/registrar.js"></script>
 </body>
+
 </html>

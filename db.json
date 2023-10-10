@@ -1,0 +1,186 @@
+{
+  "productos": [
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19740683-600-auto?v=638308627536600000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19740683-800-auto?v=638308627536600000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19740683-1200-auto?v=638308627536600000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Sal Refinada REFISAL 1000 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$ 2.250",
+      "precioPromo": "$2.500",
+      "id": "974462ef-cd2c-490f-bafa-605b55342f51"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19505615-1200-auto?v=638278174530870000&width=1200&height=auto&aspect=true",
+      "nombre": "Crema Dental Total 12 cuenta con 3 UD",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$20.000",
+      "precioPromo": "$26.890",
+      "id": "974462ef-cd2c-490f-bafa-8cace5a2a486"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/17201517-800-auto?v=638155988160900000&width=800&height=auto&aspect=true",
+      "nombre": "Líquido ARIEL 1900 ml",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$35.980",
+      "precioPromo": "$51.400",
+      "id": "b2d35427-c1c9-405c-b376-6e74aa8045c3"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19738445-600-auto?v=638308545143870000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19738445-800-auto?v=638308545143870000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19738445-1200-auto?v=638308545143870000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Lenteja FRESCAMPO 500 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$2.980",
+      "precioPromo": "$4.000",
+      "id": "99fbd92f-ec54-4bd1-a0fe-8553652c14fd"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19740112-600-auto?v=638308609273070000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19740112-800-auto?v=638308609273070000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19740112-1200-auto?v=638308609273070000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Spaguetti Clásico DORIA 1000 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$6.650",
+      "precioPromo": "$6.990",
+      "id": "fc672fba-a911-455d-a935-65343037f1f1"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/13929565-600-auto?v=637944648796900000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/13929565-800-auto?v=637944648796900000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/13929565-1200-auto?v=637944648796900000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Aceite Vegetal FRESCAMPO 3000 ml",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "21.490",
+      "precioPromo": "28.950",
+      "id": "be1bb765-2d81-4c59-98e2-d4cff5cfffc2"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19801230-600-auto?v=638318854102270000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19801230-800-auto?v=638318854102270000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19801230-1200-auto?v=638318854102270000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Vitamor 3Kg DIANA 3000 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$14.400",
+      "precioPromo": "$15.000",
+      "id": "b5597cf8-312d-45ab-b67c-57051ae1d40e"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/13173851-600-auto?v=637899411098230000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/13173851-800-auto?v=637899411098230000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/13173851-1200-auto?v=637899411098230000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "SIXPACK MALTA MINI PONY MALTA 1200 ml",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$7.580",
+      "precioPromo": "$8.000",
+      "id": "b3fc1311-ff82-4a3d-95dd-eef51a8b2f02"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19735960-600-auto?v=638308431731970000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19735960-800-auto?v=638308431731970000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19735960-1200-auto?v=638308431731970000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Gaseosa Sin Azúcar x 2 Unds ZERO 5000 ml",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$7.800",
+      "precioPromo": "$12.000",
+      "id": "b59b059f-d1f4-40f2-a452-4d7390e321e1"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19739459-600-auto?v=638308585705570000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19739459-800-auto?v=638308585705570000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19739459-1200-auto?v=638308585705570000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Crema COLANTA 230 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$5.600",
+      "precioPromo": "$6.100",
+      "id": "ea2fd4d3-70e2-4347-b68f-a41bb4ba3a14"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/5373681-600-auto?v=637439180281000000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/5373681-800-auto?v=637439180281000000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/5373681-1200-auto?v=637439180281000000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "SALCHICHA RANCHERA 480 Gramo",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$19.400",
+      "precioPromo": "$22.000",
+      "id": "d9d2e980-d771-48c6-bbdf-4da09bebc5a2"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19039756-600-auto?v=638240801568930000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19039756-800-auto?v=638240801568930000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19039756-1200-auto?v=638240801568930000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "ZUCARITAS X4 UND BON YURT 680 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$14.450",
+      "precioPromo": "$15.000",
+      "id": "06771430-c023-49e2-86ed-340d7a4cf9e4"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/18262958-600-auto?v=638188620908130000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/18262958-800-auto?v=638188620908130000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/18262958-1200-auto?v=638188620908130000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Cafe Molido AGUILA ROJA 500 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$15.840",
+      "precioPromo": "$17.600",
+      "id": "10625536-c8c8-4d7d-8607-6b799c919ad7"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19740103-600-auto?v=638308608968500000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19740103-800-auto?v=638308608968500000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19740103-1200-auto?v=638308608968500000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Pasta Tornillos DORIA 250 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$2.170",
+      "precioPromo": "$2.400",
+      "id": "97e56ec8-8dbb-44c9-a455-c621bf901f00"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/11457455-600-auto?v=637765301703430000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/11457455-800-auto?v=637765301703430000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/11457455-1200-auto?v=637765301703430000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "DETERGENTE POLVO TOP TERRA 4000 gr",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$34.250",
+      "precioPromo": "$35.000",
+      "id": "de3a5782-9d70-4e9f-82e7-b28d0a208452"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/19096527-600-auto?v=638243613409170000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19096527-800-auto?v=638243613409170000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19096527-1200-auto?v=638243613409170000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Papel Higienico Expert FAMILIA 300 mts",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$19.950",
+      "precioPromo": "$27.550",
+      "id": "a857a8b7-8ed2-4be8-bbcc-ed1de0e2ed3c"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/13673976-600-auto?v=637938405815070000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/13673976-800-auto?v=637938405815070000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/13673976-1200-auto?v=637938405815070000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Blanqueador Original CLOROX 624624",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$9.540",
+      "precioPromo": "$17.350",
+      "id": "4a5c9e9a-e863-41a2-b538-f7a73599130a"
+    },
+    {
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/9460490-600-auto?v=637655221291330000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/9460490-800-auto?v=637655221291330000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/9460490-1200-auto?v=637655221291330000&width=1200&height=auto&aspect=true 1200w",
+      "nombre": "Refajo lata 6 und COLA Y POLA 330 ml",
+      "estado": "Disponible",
+      "calificación": "./src/img/estrellas.png",
+      "precio": "$13.750",
+      "precioPromo": "$15.400",
+      "id": "11920102-b7a9-4a39-9d21-6e8fbedb39c8"
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "fabian Cabal",
+      "email": "fabian@correo.com",
+      "password": "123456",
+      "id": "5a970bf1-3ab7-41b6-8257-611edd8ab4bc"
+    },
+    {
+      "nombre": "admin",
+      "email": "admin@correo.com",
+      "password": "admin123",
+      "id": "8406e1d2-447c-427c-bc9d-00bb1ff7321f"
+    },
+    {
+      "nombre": "maira",
+      "email": "alexandra@correo.com",
+      "password": "11111111",
+      "id": "82313a3f-0913-40cb-960f-7952217ad7d1"
+    }
+  ]
+}

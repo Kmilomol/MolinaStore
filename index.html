@@ -25,361 +25,138 @@
 </head>
 
 <body>
+    <div>
+        <header class="header contenedor">
+            <div class="desktop">
+                <div class="header__logo">
+                    <h1>Molina Store</h1>
+                </div>
+                <div class="header__login">
+                    <a href="./src/pages/login.html">Ingresar</a>
+                    <a href="./src/pages/register.html">Registrarse</a> 
+                    <a class="Agregar" href="./src/pages/registar-producto.html">Agregar producto</a> 
+                </div>
+                <div class="header__car">
+                    <ul>
+                        <li class="submenu">
+                            <img src="./src/img/cart.png" id="img-carrito">
+                            <div id="carrito">
 
-<div>
-    <header class="header contenedor">
-        <div class="desktop">
-            <div class="header__logo">
-                <h1>Molina Store</h1>
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                </div>
+                <div class="welcome" id="welcome">
+                    <h6>Bienvenido <Span class="welcome--name">''</Span></h6>
+                </div>
+
             </div>
-            <div class="header__login">
-                <a href="./src/pages/login.html">Ingresar</a>
-                <a href="./src/pages/register.html">Registrarse</a>
-            </div>
-            <div class="header__car">
-                <ul>
-                    <li class="submenu">
-                        <img src="./src/img/cart.png" id="img-carrito">
-                        <div id="carrito">
+    </div>
 
-                            <table id="lista-carrito" class="u-full-width">
-                                <thead>
-                                    <tr>
-                                        <th>Imagen</th>
-                                        <th>Nombre</th>
-                                        <th>Precio</th>
-                                        <th>Cantidad</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-
-                            <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
-                        </div>
-                    </li>
-            </div>
-
+    <div class="mobile">
+        <div class="header__logo">
+            <h1>Molina Store</h1>
         </div>
-</div>
-
-<div class="mobile">
-    <div class="header__logo">
-        <h1>Molina Store</h1>
-    </div>
-    <div class="more">
-        <button>Más</button>
-    </div>
-    <div class="links">
-        <a href="#">Ingresar</a>
-        <a href="#">Registrarse</a>
-        <a href="#">Carrito</a>
-    </div>
-</div>
-
-</header>
-
-<div class="hero">
-    <div class="contenedor">
-        <div class="contenedor-main">
-            <div class="contenido-hero">
-                <h2>Compra lo que quieras</h2>
-                <p>Domicilio $ 5.000</p>
-                <form action="#" id="busqueda" method="post" class="formulario">
-                    <input class="u-full-width" type="text" placeholder="¿Que te gustaría Comprar?" id="buscador">
-                    <input type="submit" id="submit-buscador" class="submit-buscador">
-                </form>
-            </div>
+        <div class="more">
+            <button>Más</button>
         </div>
-
-    </div>
-</div>
-
-<div class="barra">
-    <div class="contenedor">
-        <div class="contenedor_row">
-            <div class="icono icono1">
-                <p>20,000 Productos en línea <br>
-                    Explora los temas más recientes</p>
-            </div>
-            <div class="icono icono2">
-                <p>Domicilios en tan solo 15 <br>
-                    Minutos en la puerta de tu casa</p>
-            </div>
-            <div class=" icono icono3">
-                <p>El mejor precio y servicio <br>
-                    garantizado en internet</p>
-            </div>
+        <div class="links">
+            <a href="#">Ingresar</a>
+            <a href="#">Registrarse</a>
+            <a href="#">Carrito</a>
         </div>
     </div>
 
-</div>
+    </header>
 
-<div id="lista-cursos" class="contenedor lista-cursos">
-    <h1 id="encabezado" class="header__logo encabezado">Productos En Línea</h1>
-    <div class="row">
-        <div class=" columns">
-            <div class="card">
-                
-                    <img
-                        src="https://exitocol.vtexassets.com/arquivos/ids/19740683-600-auto?v=638308627536600000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19740683-800-auto?v=638308627536600000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19740683-1200-auto?v=638308627536600000&width=1200&height=auto&aspect=true 1200w">
-                
-
-                <div class="info-card">
-                    <h4>Sal Refinada REFISAL 1000 gr</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="detail">
-                        <a href="./src/pages/productDetail.html" rel="noopener noreferrer">
-                            <p>ver más</p>
-                        </a>
-                    </div>
-                    <div class="card__info--price">
-                        <span class=" ">$ 2.250</span>
-                        <p class="precio">$2.500 </p>
-
-                    </div>
-                    <button class="u-full-width btn-primary input agregar-carrito" data-id="1">Agregar
-                        Al Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/19505615-1200-auto?v=638278174530870000&width=1200&height=auto&aspect=true"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Crema Dental Total 12 cuenta con 3 UD </h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class="">$20.000</span>
-                        <p class="precio">$26.890 </p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="2">Agregar
-                        Al Carrito</button>
-                </div>
-            </div>
-        </div>
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/17201517-800-auto?v=638155988160900000&width=800&height=auto&aspect=true"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Detergente Líquido ARIEL 1900 ml</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$35.980</span>
-                        <p class="precio">$51.400</p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" id="agregar-carrito" data-id="3">Agregar
-                        Al Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-
-    </div> <!--.row-->
-    <div class="row">
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/19738445-600-auto?v=638308545143870000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19738445-800-auto?v=638308545143870000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19738445-1200-auto?v=638308545143870000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Lenteja FRESCAMPO 500 gr</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$2.980</span>
-                        <p class="precio">$4.000</p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="4">Agregar
-                        Al Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-        <div class="columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/19740112-600-auto?v=638308609273070000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19740112-800-auto?v=638308609273070000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19740112-1200-auto?v=638308609273070000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Spaguetti Clásico DORIA 1000 gr</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$6.650</span>
-                        <p class="precio">$6.990 </p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="5">Agregar
-                        Al Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/13929565-600-auto?v=637944648796900000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/13929565-800-auto?v=637944648796900000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/13929565-1200-auto?v=637944648796900000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Aceite Vegetal FRESCAMPO 3000 ml</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$21.490</span>
-                        <p class="precio">$28.950 </p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="6">Agregar
-                        Al Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-    </div> <!--.row-->
-    <div class="row">
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/19748773-600-auto?v=638308885255000000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19748773-800-auto?v=638308885255000000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19748773-1200-auto?v=638308885255000000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Arroz Vitamor 3Kg DIANA 3000 gr</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$14.400</span>
-                        <p class="precio">$15.000 </p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="7">Agregar
-                        Al Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/13173851-600-auto?v=637899411098230000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/13173851-800-auto?v=637899411098230000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/13173851-1200-auto?v=637899411098230000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>SIXPACK MALTA MINI PONY MALTA 1200 ml</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$7.580</span>
-                        <p class="precio">$8.000 </p>
-
-                    </div>
-                    <a href="#" class="u-full-width btn-primary input agregar-carrito" data-id="8">Agregar
-                        Al Carrito</a>
-                </div>
-            </div> <!--.card-->
-        </div>
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/19735960-600-auto?v=638308431731970000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19735960-800-auto?v=638308431731970000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19735960-1200-auto?v=638308431731970000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Gaseosa Sin Azúcar x 2 Unds ZERO 5000 ml</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$7.800</span>
-                        <p class="precio">$12.000 </p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="9">Agregar
-                        Al Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-    </div> <!--.row-->
-    <div class="row">
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/19739459-600-auto?v=638308585705570000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19739459-800-auto?v=638308585705570000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19739459-1200-auto?v=638308585705570000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>Queso Crema COLANTA 230 gr</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$5.600</span>
-                        <p class="precio">$6.100 </p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="10">Agregar Al
-                        Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/5373681-600-auto?v=637439180281000000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/5373681-800-auto?v=637439180281000000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/5373681-1200-auto?v=637439180281000000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>SALCHICHA RANCHERA 480 Gramo</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$19.400</span>
-                        <p class="precio">$22.000</p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="11">Agregar Al
-                        Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-        <div class=" columns">
-            <div class="card">
-                <img src="https://exitocol.vtexassets.com/arquivos/ids/19039756-600-auto?v=638240801568930000&width=600&height=auto&aspect=true 600w,https://exitocol.vtexassets.com/arquivos/ids/19039756-800-auto?v=638240801568930000&width=800&height=auto&aspect=true 800w,https://exitocol.vtexassets.com/arquivos/ids/19039756-1200-auto?v=638240801568930000&width=1200&height=auto&aspect=true 1200w"
-                    class="imagen-curso u-full-width">
-                <div class="info-card">
-                    <h4>ZUCARITAS X4 UND BON YURT 680 gr</h4>
-                    <p>Disponible</p>
-                    <img src="./src/img/estrellas.png">
-                    <div class="card__info--price">
-                        <span class=" ">$14.450</span>
-                        <p class="precio">$15.000 </p>
-
-                    </div>
-                    <button href="#" class="u-full-width btn-primary input agregar-carrito" data-id="12">Agregar Al
-                        Carrito</button>
-                </div>
-            </div> <!--.card-->
-        </div>
-    </div> <!--.row-->
-</div>
-</div>
-
-
-
-<footer>
-    <div class="contenedor">
-        <section class="contacto">
-            <h3 class="titulo">Contacto</h3>
-            <form class="formulario" action="">
-                <input type="text" placeholder="Nombre" name="nombre" required>
-                <input type="email" placeholder="Correo" name="correo" required>
-                <textarea name="mensaje" placeholder="Mensaje:"></textarea>
-                <input class="btn2" type="submit" value="Enviar">
-            </form>
-        </section>
-    </div>
-
-    <section class="redes-sociales">
+    <div class="hero">
         <div class="contenedor">
-            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-            <a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a>
-            <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+            <div class="contenedor-main">
+                <div class="contenido-hero">
+                    <h2>Compra lo que quieras</h2>
+                    <p>Domicilio $ 5.000</p>
+                    <form action="#" id="busqueda" method="post" class="formulario">
+                        <input class="u-full-width" type="text" placeholder="¿Que te gustaría Comprar?" id="buscador">
+                        <input type="submit" id="submit-buscador" class="submit-buscador">
+                    </form>
+                </div>
+            </div>
+
         </div>
-    </section>
-</footer>
+    </div>
+
+    <div class="barra">
+        <div class="contenedor">
+            <div class="contenedor_row">
+                <div class="icono icono1">
+                    <p>20,000 Productos en línea <br>
+                        Explora los temas más recientes</p>
+                </div>
+                <div class="icono icono2">
+                    <p>Domicilios en tan solo 15 <br>
+                        Minutos en la puerta de tu casa</p>
+                </div>
+                <div class=" icono icono3">
+                    <p>El mejor precio y servicio <br>
+                        garantizado en internet</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-productos" class="contenedor lista-productos">
+        <h1 id="encabezado" class="header__logo encabezado">Productos En Línea</h1>
+        <div class="row">
+            <div class=" columns" id="card">
+
+            </div>
+
+        </div> <!--.row-->
+    </div>
+    </div>
 
 
-<script src="./src/js/app.js"></script>
+
+    <footer>
+        <div class="contenedor">
+            <section class="contacto">
+                <h3 class="titulo">Contacto</h3>
+                <form class="formulario" action="">
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                    <input class="btn2" type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a>
+                <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </section>
+    </footer>
+
+    
+    <script src="./src/js/app.js"></script>    
+    <script type="module" src="./controller/listar_productos.js"></script>
+    <script src="./src/js/login.js"></script>
 </body>
-
 </html>
